@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ResearchProjectDefs>
+
+   <!--=============================== Tier 1 ===================================-->
+   
+   <ResearchProjectDef>
+      <defName>MAIBodyUpgradesT1</defName>
+      <label>MAI Body Upgrades (Tier 1)</label>
+      <description>A step to thoroughly gaining knowledge and understanding of creating a better working MAI for your colony. Unlocks Tier 1 body parts in upgrading station</description>
+      <baseCost>10000</baseCost>
+      <techLevel>Spacer</techLevel>
+	  <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	  <requiredResearchFacilities>
+         <li>MultiAnalyzer</li>
+      </requiredResearchFacilities>
+	  <prerequisites>
+         <li>AdvancedBionics</li>
+      </prerequisites>
+   </ResearchProjectDef>
+   
+   <ResearchProjectDef>
+      <defName>MAIBodyUpgradesT2</defName>
+      <label>MAI Body Upgrades (Tier 2)</label>
+      <description>With further research and experiments with other robots. You have acquired further knowledge to enhance the MAIs further. Unlocks Tier 2 body parts in upgrading station.</description>
+      <baseCost>10000</baseCost>
+      <techLevel>Spacer</techLevel>
+	  <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	  <requiredResearchFacilities>
+         <li>MultiAnalyzer</li>
+      </requiredResearchFacilities>
+	  <prerequisites>
+         <li>MAIBodyUpgradesT1</li>
+      </prerequisites>
+   </ResearchProjectDef>
+   
+	<ResearchProjectDef>
+      <defName>MAIBodyUpgradesT3</defName>
+      <label>MAI Body Upgrades (Tier 3)</label>
+      <description>With further research and experiments with other robots. You have acquired further knowledge to enhance the MAIs further. Unlocks Tier 3 body parts in upgrading station.</description>
+      <baseCost>15000</baseCost>
+      <techLevel>Spacer</techLevel>
+	  <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	  <requiredResearchFacilities>
+         <li>MultiAnalyzer</li>
+      </requiredResearchFacilities>
+	  <prerequisites>
+         <li>MAIBodyUpgradesT2</li>
+      </prerequisites>
+   </ResearchProjectDef>
+   
+   
+</ResearchProjectDefs>

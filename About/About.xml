@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>[A15] Mobile AI Body Parts Upgrades</name>
+  <author>Newbeaveteran</author>
+  <targetVersion>0.15.1284</targetVersion>
+  <description>
+			version 1.6
+			This mod adds in a few body parts for your
+			MAIs.
+			
+			Current Parts:
+			Battery Cell
+			Enhanced Lenses
+			Enhanced Speaker
+			Precision Mechanical Shoulder
+			Combat Mechanical Shoulder
+			Mechanical Arm(Spine)
+			Balanced Mechanical Leg
+  </description>
+</ModMetaData>
